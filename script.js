@@ -6,7 +6,7 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibWlzc2lvbndlc3QiLCJhIjoiY2ttM3BwdzY5MGFxdjJ4b
       container: 'map',
       style: 'mapbox://styles/missionwest/ckmdml62726ck17rtf55fx1ia',
       center: [-117.41,47.64],
-      zoom: 6.5   
+      zoom: 5   
 
     })
 
