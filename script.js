@@ -40,7 +40,7 @@ var popup = new mapboxgl.Popup({
     
    // Populate the popup and set its coordinates
    // based on the feature found.
-   popup.setLngLat(coordinates).setHTML('<h3>' + feature.properties.Farm + '</h3>').addTo(map);
+   popup.setLngLat(coordinates).setHTML('<h3>' + feature.properties.farm + '</h3>').addTo(map);
    });
     
    map.on('mouseleave', 'Growers', function () {
