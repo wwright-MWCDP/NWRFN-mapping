@@ -7,6 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
  <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
 <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+<script src="https://unpkg.com/papaparse@latest/papaparse.min.js"></script>
   <title>NW Regional Food Network</title>
 <style> 
 body {
@@ -17,11 +18,28 @@ body {
   height:100vh;
   width:100vw;
 }
+
+.center {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 75%;
+}
+
+.farmTitle {
+  text-align:center;
+  font-size:2em;
+  font-weight:bold;
+  color:#555555;
+}
+
+a {
+  text-decoration:none;
+}
 </style>
 <script src='script.js' defer></script>
 </head><body>
 
   <div id='map'></div>
-  
 
 </body></html>
